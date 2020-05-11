@@ -9,7 +9,7 @@ export default class Popover extends Component {
 				<div className="popover-text">
 					{this.props.defaultText}
 				</div>
-				<div className={"popover-text-" + this.props.position}>
+				<div className={"popover-text-l"}>
 					{this.props.popoverText}
 				</div>
 			</div>

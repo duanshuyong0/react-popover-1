@@ -6,9 +6,23 @@
 	height: 100px;
 }
 
+.popover-text-l {
+	position: absolute;
+	margin: 0px auto;
+	display: none;
+	width: 125px;
+	height: 100px;
+	z-index: 1;
+}
+
+.popover-text{
+	position: absolute;
+	z-index: 0;
+}
+
 .popover .popover-text-top {
 	width: 125px;
-	background-color: #555;
+	background-color: #eee;
 	color: #fff;
 	text-align: center;
 	border-radius: 5px;
@@ -141,3 +155,10 @@
 	visibility: visible;
 	display: block;
 }
+
+.popover:hover .popover-text-l{
+	visibility: visible;
+	display: block;
+}
+
+

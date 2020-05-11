@@ -11,7 +11,7 @@ function App() {
       </header>
       <section className="content">
         <Popover 
-          defaultText="Hello"
+          defaultText="Hellossssss"
           popoverText="I'm here"
           position="top"
         ></Popover>
